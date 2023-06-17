@@ -1,0 +1,20 @@
+run_sh/analysis_bkp
+scripts/visualize_tools_bkp
+dist
+run_sh/cluster
+# this needs to be downloaded from the webpage.
+data/body_models
+data/body_segments
+data/CKPT
+data/contact_bodies
+data/freespace_bodies
+data/input
+data/preprocess_3DFRONTHUMAN_input
+data/walking_bodies
+data/input_refinement
+*.tar.gz
+env.sh.bkp
+*.zip
+*__pycache__
+*smplx_debug
+thirdparty/MOVER_light/refinement_result
