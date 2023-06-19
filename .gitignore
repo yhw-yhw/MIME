@@ -12,6 +12,7 @@ data/input
 data/preprocess_3DFRONTHUMAN_input
 data/walking_bodies
 data/input_refinement
+data/ThreeD-FRONT-HUMAN-samples
 *.tar.gz
 env.sh.bkp
 *.zip

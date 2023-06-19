@@ -16,7 +16,7 @@ import math
 from utils import DirLock, ensure_parent_directory_exists, \
     floor_plan_renderable, floor_plan_from_scene, \
     get_textured_objects_in_scene, scene_from_args, render
-from viz import viz_free_space
+from visualize_tools.viz_cmp_results import viz_free_space
 from main_utils import generate_aug_idx
 
 # father dir
@@ -27,7 +27,7 @@ from scene_synthesis.datasets.threed_front_dataset import \
 
 # write a wrapper
 from scene_synthesis.datasets.human_aware_tool import draw_orient_bbox, \
-    get_body_meshes, get_meshes_from_renderables, get_objects_in_scene_trimesh
+    get_body_meshes, get_meshes_from_renderables, get_objects_in_scene_trimeshw
 from scene_synthesis.datasets.human_contact import load_contact_humans, fill_contact_body_into_room
 from scene_synthesis.datasets.human_free_warper import generate_free_space_mask
 
@@ -41,7 +41,7 @@ from main_utils import get_parsers, get_obj_names
 def main(argv):
     
     args = get_parsers(argv)
-    
+    import pdb;pdb.set_trace()
     logging.getLogger("trimesh").setLevel(logging.ERROR)
 
     # Check if output directory exists and if it doesn't create it

@@ -35,7 +35,7 @@ Please download several files from [the download webpage](https://mime.is.tue.mp
 * Download 3D-FRONT-HUMAN preprocess data [preprocess_3DFRONTHUMAN_input.tar.gz](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=preprocess_3DFRONTHUMAN_input.tar.gz) and unzip into `data/preprocess_3DFRONTHUMAN_input`
 * Download our preprocessed [3DFRONTHUMAN_relative_path_pkl.zip](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=3DFRONTHUMAN_relative_path_pkl.zip) for 3D-FRONT-Human and unzip into `data/3DFRONTHUMAN_relative_path_pkl`
 * Download our preprocess body input [input_finement](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=input_refinement.tar.gz) for running scene refinement, unzip it into `data/input_refinement`.
-
+* Download several visualized [samples](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=ThreeD-FRONT-HUMAN-samples.tar.gz) in 3D-FRONT-HUMAN for visualization. 
 
 ### Change the enviornment variables.
 
@@ -57,6 +57,9 @@ export DATA_ROOT_DIR=${change_to_original_3DFRONT_path}
 
 - See [docs/refinement.md](docs/refinement.md) to refine the scene layout with gemetrical human-scene interaction details.
 
+## Visualize the Dataset and Results
+
+- See [docs/visualization.md](docs/visualization.md) to visualize the 3D-FRONT-HUMAN dataset and the distribution of different objects locations in our MIME generated results.  
 
 ## Training
 
