@@ -37,7 +37,7 @@ Please download several files from [the download webpage](https://mime.is.tue.mp
 * Download our preprocess body input [input_finement](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=input_refinement.tar.gz) for running scene refinement, unzip it into `data/input_refinement`.
 * Download several visualized [samples](https://download.is.tue.mpg.de/download.php?domain=mime&resume=1&sfile=ThreeD-FRONT-HUMAN-samples.tar.gz) in 3D-FRONT-HUMAN for visualization. 
 
-### Change the enviornment variables.
+### Change the environment variables.
 
 You need to modify these variables in `env.sh`.
 
